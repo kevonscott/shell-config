@@ -6,6 +6,8 @@ set expandtab  " exapand tab to spaces
 set wildmenu   " Enable autocomplete
 set wildmode=list:longest  " Behaves similat to bash auto-cimplete
 set autoindent
+set hlsearch
+set background=dark
 
 " Status Line configuration
 set statusline=
