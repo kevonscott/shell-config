@@ -8,6 +8,10 @@ set wildmode=list:longest  " Behaves similar to bash auto-complete
 set autoindent
 set hlsearch
 set background=dark
+set autoreload
+" When we detect an idle period, checks if the file was modified by an 
+" external source and reload it.
+au CursorHold * checktime
 
 " Status Line configuration
 set statusline=
