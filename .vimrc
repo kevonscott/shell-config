@@ -21,7 +21,8 @@ set statusline+=%=  " Seperator
 set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%  " right side
 set laststatus=2
 
-set colorcolumn=79
+set colorcolumn=80
+highlight ColorColumn ctermbg=238
 
 " For Windows Specific
 " set gfn=Terminal:h11:cOEM:qDRAFT
