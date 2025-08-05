@@ -33,7 +33,6 @@
       "segments": [
           {
             "leading_diamond": "\ue0b6",
-            // "trailing_diamond": "\ue0b0",
             "background": "p:yellow",
             "foreground": "p:black",
             "powerline_symbol": "\ue0b0",
@@ -57,7 +56,10 @@
         },
         {
           "properties": {
-            "style": "folder"
+            "style": "mixed",
+            "dir_length": 10,
+            "mixed_threshold": 4,
+            "max_width": 10
           },
           "template": " \uea83 {{ path .Path .Location }} ",
           "foreground": "p:white",
